@@ -412,6 +412,8 @@ footer .footer-two .footer-button button {
   background: #5e524d;
   border: none;
   color: #fff;
+  width: 124px;
+  height: 38px;
 }
 
 input[type=text] {
