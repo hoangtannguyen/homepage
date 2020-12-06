@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans+Condensed:wght@300&display=swap')
+
+html, body 
+    margin: 0 
+    padding: 0
+    font-family: 'Open Sans Condensed', sans-serif
+
+header 
+    height: 139px
+
+.header-top
+    display: flex 
+    justify-content: flex-end
+    color: #5e524d
+    margin-right: 22%
+    align-items: flex-end
+    font-weight: 900
+    font-size: 0.9rem
+    div 
+        margin: 0 10px
+        padding: 9px 0 0 
+    .english::before 
+        content: ""
+        position: absolute
+        width: 43px
+        height: 2px
+        background: #ccc9c8
+        top: 26px
+    .header-top-font::before
+        position: absolute
+        width: 2px
+        height: 15px 
+        content: ""
+        background: #ccc9c8
+        top: 14px
+        margin-left: -10px 
+        
+nav
+    display: flex
+    align-items: flex-end
+    justify-content: space-between
+    margin: 0 22%
+    #logo 
+        // width: 100%
+    ul 
+        display: flex
+        li 
+            list-style: none
+            a 
+                text-decoration: none
+                margin: 0 20px
+                white-space: nowrap
+                color: #6d625e
+                font-weight: 900
+                font-size: 1.1rem
+                
+
+.image-banner 
+    width: 100%
+.banner 
+    position: relative
+    .banner-font-all 
+        position: absolute
+        text-align: center
+        top: 49% 
+        left: 40%
+        transform: translate(-55%,-40%)
+        .banner-font-title
+            font-family: 'Black Han Sans', sans-serif
+            color: #fff 
+            font-size: 3.2vw
+            font-weight: 900
+        .banner-font-description
+            padding: 4% 0 0
+            font-size: 1vw
+            color: #b0c6ad
+        .banner-button
+            display: flex 
+            justify-content: center
+            padding: 5% 0
+            grid-gap: 3%
+
+.banner-button-one 
+    padding: 2% 6%
+    color: #fff
+    background: transparent
+    border: 1px solid #dddedb
+    font-size: 0.8vw
+
+.banner-button-two 
+    padding: 2% 8%
+    color: #fff
+    border: none
+    background:#f18a77
+    font-size: 0.8vw
+    white-space: nowrap
+
+.banner-button-for 
+    width: 239px
+    height: 44px
+    color: #fff
+    border: none
+    background:#f18a77
+    font-size: 0.8vw
+    white-space: nowrap
+
+.banner-button-there 
+    padding: 1.8% 6%
+    font-size: 0.8vw
+    color: #83a92c
+    background: transparent
+    border: 1px solid #83a92c
+
+.banner-mid
+    position: relative
+    .image-banner-mid
+        width: 100%
+        margin-top: -5px
+    .banner-mid-font-all
+        position: absolute
+        text-align: center 
+        top: 57%
+        left: 50%
+        transform: translate(-50%,-50%)
+        .banner-mid-font-title 
+            color: #5e524d
+            font-size: 2.8vw
+            font-family: 'Open Sans', sans-serif
+        .banner-mid-font-description 
+            padding: 8% 0 0
+            line-height: 1.4
+            font-size: 1.1vw
+            font-weight: 500
+            color: #5e524d
+        .banner-mid-button
+            padding: 12% 0 0
+
+
+.banner-bot
+    position: relative
+    .image-banner-bot
+        width: 100%
+        margin-top: -5px
+    .banner-bot-font-all
+        position: absolute
+        text-align: center 
+        top: 31%
+        left: 50%
+        transform: translate(-50%,-50%)
+        .banner-bot-font-title 
+            color: #5e524d 
+            font-size: 3vw
+        .banner-bot-font-description
+            padding: 2% 0
+            line-height: 1.5
+            font-size: 1vw
+            color: #aaaaaa
+    .baner-bot-for-all 
+        position: absolute
+        top: 62%
+        left: 50%
+        transform: translate(-50%,-50%)
+    .baner-bot-for 
+        display: grid 
+        grid-template-columns: repeat(4,auto)
+        align-items: flex-end
+        grid-gap: 3.8rem
+        .image-baner-for 
+            width: 100%
+        .baner-bot-for-title 
+            text-align: center
+            white-space: nowrap
+            color: #5e524d
+            font-size: 1vw
+            font-weight: 900
+            padding: 20% 0 0
+        .baner-bot-for-title::before 
+            position: absolute
+            height: 0.6%
+            width: 4%
+            margin-left: 6%
+            margin-top: -1%
+            background: #83a92c
+            content: ""
+       
+    .banner-bot-button 
+        position: absolute
+        top: 90%
+        left: 50%
+        transform: translate(-50%,-50%)
+    
+
+.banner-new
+    position: relative 
+    .image-banner-new 
+        width: 100%
+        margin-top: -5px
+    .banner-new-all
+        position: absolute 
+        top: 49% 
+        left: 50% 
+        transform: translate(-50%,-50%)
+        .banner-heath-news
+            text-align: center
+            color: #5e524d
+            font-size: 3.2vw
+    .banner-new-there
+        display: grid  
+        grid-template-columns: repeat(3,320px)
+        grid-gap: 26px
+        padding: 4% 0 0
+        .banner-new-there-image 
+            padding: 12px 0 0
+            width: 100%
+        .banner-new-there-title 
+            color: #5e524d  
+            font-size: 1.2vw
+            font-weight: 550
+        .banner-new-there-path 
+            padding: 6px 0 0
+            color: #b9b5b4 
+            font-size: 0.8vw
+        .banner-new-there-description 
+            padding: 12px 0 0
+            color: #585858
+            font-size: 1vw
+        .banner-new-there-readmore
+            padding: 20px 0 0
+            color: #83a92c
+            font-size: 1vw
+            font-weight: 530
+        .banner-new-background
+            background-color: #ffffff 
+            padding: 8% 10%
+
+footer 
+    background-image: url('/images/footer1.jpg')
+    width: 100% 
+    height: 70vh
+    background-position: center 
+    background-size: cover
+    margin-top: -5px 
+    .footer-contact
+        position: relative
+        text-align: center
+        color: #fff
+        font-size: 3.2vw
+        top: 12% 
+    .footer-two
+        display: grid  
+        grid-template-columns: auto auto
+        justify-content: center
+        align-items: flex-start
+        grid-gap: 7%
+        position: relative
+        top: 20%
+        .footer-title
+            color: #fff 
+            font-size: 1.1vw
+            padding: 20px 0 0
+        .footer-description
+            color: #fff
+        .icons 
+            display: flex
+            align-items: center
+            grid-gap: 10px
+        .footer-input 
+            padding: 12px 0 0
+        .footer-padding
+            padding: 15px 0 0
+        .footer-button
+            float: right
+            padding: 14px 0 0
+            button 
+                background: #5e524d
+                border: none 
+                color: #fff
+                width: 124px
+                height: 38px
+    
+input[type=text]
+    border: none
+    width: 395px 
+    height: 39px
+    padding: 0 10px 
+textarea
+    border: none
+    width: 395px 
+    height: 163px
+    padding: 0 10px 
+    color: #a3a3a3
+::placeholder
+    color: #a3a3a3
+.image-copyright 
+    width: 100%
