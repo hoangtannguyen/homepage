@@ -379,6 +379,7 @@ footer .footer-two .footer-title {
   color: #fff;
   font-size: 1.1vw;
   padding: 20px 0 0;
+  font-weight: 600;
 }
 
 footer .footer-two .footer-description {
@@ -392,7 +393,17 @@ footer .footer-two .icons {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  grid-gap: 10px;
+  padding: 8px 0 0;
+  grid-gap: 8px;
+}
+
+footer .footer-two .icons img {
+  width: 40px;
+  height: 40px;
+}
+
+footer .footer-two .icons .image-icons {
+  margin-left: 10%;
 }
 
 footer .footer-two .footer-input {
@@ -421,14 +432,16 @@ input[type=text] {
   width: 395px;
   height: 39px;
   padding: 0 10px;
+  font-size: 15px;
 }
 
 textarea {
   border: none;
   width: 395px;
-  height: 163px;
-  padding: 0 10px;
+  height: 155px;
+  padding: 8px 10px 0;
   color: #a3a3a3;
+  font-size: 15px;
 }
 
 ::-webkit-input-placeholder {
